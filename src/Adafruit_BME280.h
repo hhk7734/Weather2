@@ -22,7 +22,6 @@
 #define __BME280_H__
 
 #include "Arduino.h"
-#include "Adafruit_Sensor.h"
 
 #include <SPI.h>
 #include <Wire.h>
