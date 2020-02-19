@@ -6,6 +6,7 @@ Weather2 weather;
 
 void setup( void )
 {
+    Serial.begin( 9600 );
     // weather.begin( &Wire3 );
     weather.begin();
 }
